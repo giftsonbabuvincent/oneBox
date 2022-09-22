@@ -6374,7 +6374,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 768px) {
+@@media (min-width: 768px) {
   .d-md-none {
     display: none !important;
   }
@@ -6404,7 +6404,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 992px) {
+@@media (min-width: 992px) {
   .d-lg-none {
     display: none !important;
   }

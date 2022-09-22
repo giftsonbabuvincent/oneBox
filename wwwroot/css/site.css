@@ -682,3 +682,14 @@ img:hover {
   color: white;
   font-size: 16px;
 }
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
