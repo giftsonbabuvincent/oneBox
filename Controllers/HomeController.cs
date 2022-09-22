@@ -28,4 +28,17 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+
+    [HttpGet]
+    public IActionResult ChochoTray()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    // Get order and contact details from customer
+    public IActionResult ChocoCart()
+    {
+        return View();
+    }
 }

@@ -519,6 +519,10 @@ body {
   width: 99%;
 }
 
+.width-100 {
+  width: 100%;
+}
+
 .width-50px {
   width: 50px;
 }
@@ -609,3 +613,20 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 30px;
+}
+
+.item3 { grid-area: 1 / 1 / 2 / 2; }
+.item4 { grid-area: 1 / 2 / 2 / 4; }
