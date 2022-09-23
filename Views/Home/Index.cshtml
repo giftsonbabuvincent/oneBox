@@ -1,100 +1,135 @@
-﻿    
-@{
+﻿@{
     ViewData["Title"] = "Home";
 }
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header mb-5 position-relative overlay-bottom">
-        <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5">
-           @Html.Partial("ChochoTray")
-        </div>
+<!-- Page Header Start -->
+<div class="container-fluid page-header mb-5 position-relative overlay-bottom">
+    <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5">
+        @Html.Partial("ChochoTray")
     </div>
-    <!-- Page Header End -->
+</div>
+<!-- Page Header End -->
 
-    <!-- Menu Start -->
-    <div class="container-fluid pt-5">
-        <div class="container">
-            <!-- <div class="section-title">
+<!-- Menu Start -->
+<div class="container-fluid pt-5">
+    <div class="container">
+        <!-- <div class="section-title">
                 <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Menu & Pricing</h4>
                 <h1 class="display-4">Competitive Pricing</h1>
             </div>-->
-            <div class="row">
-                <div class="col-lg-6">
-                    <h1 class="mb-5">Hot Coffee</h1>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
-                            <h5 class="menu-price">₹ 20</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Black Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="mb-5">Hot Coffee</h1>
+                <div class="row align-items-center mb-5">
+                    <div class="col-4 col-sm-3">
+                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
+                        <h5 class="menu-price">₹ 20</h5>
                     </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jpg" alt="">
-                            <h5 class="menu-price">₹70</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Chocolete Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
-                            <h5 class="menu-price">₹90</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Coffee With Milk</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
+                    <div class="col-8 col-sm-9">
+                        <h4>Black Coffee</h4>
+                        <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <h1 class="mb-5">Cold Coffee</h1>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
-                            <h5 class="menu-price">₹50</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Black Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
+                <div class="row align-items-center mb-5">
+                    <div class="col-4 col-sm-3">
+                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jpg" alt="">
+                        <h5 class="menu-price">₹70</h5>
                     </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jpg" alt="">
-                            <h5 class="menu-price">₹70</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Chocolete Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
+                    <div class="col-8 col-sm-9">
+                        <h4>Chocolete Coffee</h4>
+                        <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
                     </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
-                            <h5 class="menu-price">₹90</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Coffee With Milk</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
+                </div>
+                <div class="row align-items-center mb-5">
+                    <div class="col-4 col-sm-3">
+                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
+                        <h5 class="menu-price">₹90</h5>
+                    </div>
+                    <div class="col-8 col-sm-9">
+                        <h4>Coffee With Milk</h4>
+                        <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="mb-5">Cold Coffee</h1>
+                <div class="row align-items-center mb-5">
+                    <div class="col-4 col-sm-3">
+                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
+                        <h5 class="menu-price">₹50</h5>
+                    </div>
+                    <div class="col-8 col-sm-9">
+                        <h4>Black Coffee</h4>
+                        <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
+                    </div>
+                </div>
+                <div class="row align-items-center mb-5">
+                    <div class="col-4 col-sm-3">
+                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jpg" alt="">
+                        <h5 class="menu-price">₹70</h5>
+                    </div>
+                    <div class="col-8 col-sm-9">
+                        <h4>Chocolete Coffee</h4>
+                        <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
+                    </div>
+                </div>
+                <div class="row align-items-center mb-5">
+                    <div class="col-4 col-sm-3">
+                        <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
+                        <h5 class="menu-price">₹90</h5>
+                    </div>
+                    <div class="col-8 col-sm-9">
+                        <h4>Coffee With Milk</h4>
+                        <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid pt-5">
+    <div class="container">
+        <!-- <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Menu & Pricing</h4>
+                <h1 class="display-4">Competitive Pricing</h1>
+            </div>-->
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="mb-5">Your Order Infomation</h1>
+                <div class="row align-items-center mb-5">
+                    <div class="col-8 col-sm-9">
+                        <h4>Dear Customer,</h4>
+                    </div>
+                    <div class="col-8 col-sm-9">
+                        We are providing high quality chocolate throughout India, bringing our customers peace of mind, integrity and excitement.
+                        Once you place the order, we will contact you to comfim order and payment. Kinldy provide your contact number and address for delivery.<br>
+                        <br>Thank you so much!!!
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="mb-5 font-color-white">.</h1>
+                <div class="row align-items-center mb-5">
+                    <div class="col-8 col-sm-9">
+                        <h4>Your Contact Number</h4>
+                        <p class="m-0">@Html.TextBox("conatct",null, new { @class = "width-225px"})</p>
+                    </div>
+                    <div class="col-8 col-sm-9 padding-top-10px">
+                        <h4>Delivery Address</h4>
+                        <p class="m-0">@Html.TextArea("Delivery Address",null, new { @class = "width-225px"})</p>
+                        <div class="padding-top-15px"><button class="button-Brown">Place Order</button></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <br>
-    <br>
-    <!-- Menu End -->
+</div>
 
+<br>
+<br>
+<!-- Menu End -->
 
-   
-
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
